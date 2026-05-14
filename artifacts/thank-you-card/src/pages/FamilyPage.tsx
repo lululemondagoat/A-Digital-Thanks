@@ -54,9 +54,7 @@ export default function FamilyPage() {
 
         <ScrollReveal>
           <div className="space-y-12 max-w-3xl mx-auto text-xl md:text-2xl text-[#374151] font-semibold leading-relaxed bg-white/70 p-12 rounded-[3rem] border border-white shadow-lg backdrop-blur-sm">
-            <p>
-              Individually, you are extraordinary. Together, you are the constellation that guides my life. 
-            </p>
+            <p>Individually, you are extraordinary. Together, you are the constellations that guide my life.</p>
             <p>
               I am who I am because of the pieces of yourselves you have shared with me. Your patience, your discipline, your energy, your curiosity, your resilience.
             </p>
