@@ -18,20 +18,17 @@ export default function FamilyPage() {
       <ParticleField color="rgba(212, 175, 55, 0.8)" density={30} speed={0.3} />  {/* Gontr/Kemi */}
       <ParticleField color="rgba(34, 197, 94, 0.8)" density={30} speed={1} />     {/* Drico */}
       <ParticleField color="rgba(139, 92, 246, 0.8)" density={30} speed={0.2} />   {/* Ursin */}
-
       {/* Confetti Elements */}
       <div className="absolute top-[10%] left-[15%] w-4 h-4 bg-pink-400 rounded-full opacity-60 animate-bounce pointer-events-none" />
       <div className="absolute top-[30%] right-[20%] w-6 h-6 bg-blue-400 transform rotate-45 opacity-50 pointer-events-none" />
       <div className="absolute bottom-[25%] left-[25%] text-purple-500 text-3xl font-black opacity-40 pointer-events-none">★</div>
       <div className="absolute bottom-[10%] right-[15%] w-5 h-5 bg-green-400 rounded-full opacity-60 animate-pulse pointer-events-none" />
-
       <div className="fixed top-6 left-6 z-50">
         <Link href="/" className="text-purple-600/80 hover:text-purple-800 transition-colors flex items-center gap-2 group text-sm tracking-wider uppercase font-bold bg-white/50 px-4 py-2 rounded-full border border-purple-200">
           <ArrowLeft size={16} className="group-hover:-translate-x-1 transition-transform" />
           Home
         </Link>
       </div>
-
       <main className="max-w-4xl mx-auto px-6 py-32 relative z-10 text-center">
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
@@ -52,9 +49,7 @@ export default function FamilyPage() {
         </motion.h1>
 
         <ScrollReveal delay={2}>
-          <p className="font-caveat text-3xl md:text-5xl text-[#d97706] mb-24 bg-white/40 p-6 rounded-3xl border-2 border-yellow-200 shadow-sm inline-block transform -rotate-1">
-            A healer. A builder. A spark. A dreamer. A survivor.
-          </p>
+          <p className="font-caveat text-3xl md:text-5xl text-[#d97706] mb-24 bg-white/40 p-6 rounded-3xl border-2 border-yellow-200 shadow-sm inline-block transform -rotate-1">A healer. A builder. A spark. A dreamer. A doer.</p>
         </ScrollReveal>
 
         <ScrollReveal>
