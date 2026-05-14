@@ -98,7 +98,7 @@ export default function Home() {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1, delay: 0.5 }}
           className="font-nunito text-[#8b5a2b] text-lg md:text-xl font-semibold tracking-wide max-w-2xl mb-16 px-4"
-        >A small collection of appreciation for the people who shaped and continue to shape my life.</motion.p>
+        >A small collection of appreciation for the people who continue to shape my life.</motion.p>
 
         <motion.div
           initial={{ opacity: 0 }}
