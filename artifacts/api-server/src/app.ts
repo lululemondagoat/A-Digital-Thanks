@@ -6,6 +6,7 @@ import router from "./routes/index.js";
 import { logger } from "./lib/logger.js";
 
 const app: Express = express();
+
 app.use(
   (pinoHttp as any).pinoHttp({
     logger,
@@ -36,7 +37,7 @@ const frontendPath = path.join(process.cwd(), "..", "thank-you-card", "dist");
 
 app.use(express.static(frontendPath));
 
-app.get("*", (req, res) => {
+app.get("(.*)", (req, res) => {
   if (req.url.startsWith("/api")) {
     return res.status(404).json({ error: "API route not found" });
   }
@@ -45,7 +46,7 @@ app.get("*", (req, res) => {
       res
         .status(200)
         .send(
-          "Server is ALIVE, but I can't find the 'out' folder yet. Keep going!",
+          "Server is ALIVE, but I can't find the 'dist' folder yet. Make sure Vercel build settings are updated!",
         );
     }
   });
