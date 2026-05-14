@@ -33,7 +33,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use("/api", router);
 
-const frontendPath = path.join(process.cwd(), "..", "thank-you-card", "dist");
+const frontendPath = path.join(process.cwd(), "..", "thank-you-card", "dist", "public");
 
 app.use(express.static(frontendPath));
 
