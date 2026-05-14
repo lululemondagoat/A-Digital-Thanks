@@ -149,9 +149,7 @@ export default function ChrysPage() {
           <div className="inline-block mb-12 bg-white p-4 rounded-full shadow-lg">
             <Shield size={32} className="text-purple-500" />
           </div>
-          <p className="text-xl font-bold leading-relaxed text-[#1e3a5f] mb-16 max-w-2xl mx-auto">
-            You are a protector, a healer, and a rock. The world is softer because you are in it. Never forget the profound difference you make, not just in hospitals, but in lives. Especially mine.
-          </p>
+          <p className="text-xl font-bold leading-relaxed text-[#1e3a5f] mb-16 max-w-2xl mx-auto">You are a protector, a healer, and a rock. The world is softer because you are in it. Never forget the profound difference you make, not just in hospitals, but in our lives. Especially mine.</p>
           <div className="font-caveat text-4xl text-[#5b21b6] tracking-wide relative inline-block">
             <span className="relative z-10">With all my love</span>
             <motion.div 
