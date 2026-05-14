@@ -74,13 +74,11 @@ export default function Home() {
       style={{ background: 'linear-gradient(135deg, #fff9f0 0%, #fef3e8 30%, #f9e8ff 60%, #e8f4ff 100%)' }}
     >
       <ParticleField color="rgba(232, 66, 106, 0.4)" density={40} speed={0.8} />
-      
       {/* Decorative Doodles */}
       <div className="absolute top-20 left-[10%] text-[#e8426a] opacity-30 text-4xl transform -rotate-12 select-none pointer-events-none">★</div>
       <div className="absolute top-40 right-[15%] text-[#7dc8f0] opacity-40 text-5xl transform rotate-12 select-none pointer-events-none">♥</div>
       <div className="absolute bottom-20 left-[20%] text-[#22c55e] opacity-30 text-3xl transform rotate-45 select-none pointer-events-none">✦</div>
       <div className="absolute bottom-40 right-[10%] text-[#8b5cf6] opacity-40 text-4xl transform -rotate-12 select-none pointer-events-none">✿</div>
-      
       <div className="z-10 w-full max-w-5xl flex flex-col items-center text-center">
         <div className="relative">
           <motion.h1
@@ -100,9 +98,7 @@ export default function Home() {
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 1, delay: 0.5 }}
           className="font-nunito text-[#8b5a2b] text-lg md:text-xl font-semibold tracking-wide max-w-2xl mb-16 px-4"
-        >
-          A small collection of appreciation for the people who shaped my life.
-        </motion.p>
+        >A small collection of appreciation for the people who shaped and continue to shape my life.</motion.p>
 
         <motion.div
           initial={{ opacity: 0 }}
