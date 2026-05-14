@@ -37,19 +37,16 @@ export default function ChrysPage() {
     >
       <ParticleField color="rgba(147, 197, 253, 0.5)" density={40} speed={0.3} />
       <HeartbeatLine />
-      
       {/* Decorative SVG Elements */}
       <div className="absolute top-[15%] left-[5%] text-purple-400 opacity-30 text-3xl transform -rotate-12 pointer-events-none">✦</div>
       <div className="absolute top-[25%] right-[10%] text-pink-400 opacity-40 text-4xl transform rotate-12 pointer-events-none">♥</div>
       <div className="absolute bottom-[20%] left-[15%] text-blue-400 opacity-30 text-5xl transform rotate-45 pointer-events-none">★</div>
-      
       <div className="fixed top-6 left-6 z-50">
         <Link href="/" className="text-purple-500/70 hover:text-purple-600 transition-colors flex items-center gap-2 group text-sm tracking-wider uppercase font-bold">
           <ArrowLeft size={16} className="group-hover:-translate-x-1 transition-transform" />
           Back
         </Link>
       </div>
-
       <main className="max-w-4xl mx-auto px-6 py-24 relative z-10">
         {/* Hero Section */}
         <section className="min-h-[80vh] flex flex-col justify-center items-center text-center relative">
@@ -90,9 +87,7 @@ export default function ChrysPage() {
 
         {/* Message */}
         <ScrollReveal className="py-24 text-center max-w-2xl mx-auto">
-          <p className="text-xl md:text-3xl leading-relaxed font-caveat text-[#4c1d95]">
-            "Thank you for being the calm in the storm. For showing me what it means to care for others without losing yourself. Your dedication to your craft and the people around you is nothing short of beautiful."
-          </p>
+          <p className="text-xl md:text-3xl leading-relaxed font-caveat text-[#4c1d95]">"Thank you for being the calm in the storm. For always showing me what it means to care for others. Your dedication to your craft and the people around you is nothing short of beautiful."</p>
         </ScrollReveal>
 
         {/* Lessons */}
