@@ -100,7 +100,7 @@ export default function ChrysPage() {
             <ScrollReveal delay={0.1}>
               <div className="p-8 rounded-3xl bg-white/80 backdrop-blur-sm border border-purple-200 shadow-xl hover:shadow-2xl hover:border-purple-300 transition-all">
                 <Heart className="w-10 h-10 text-pink-400 mb-6" />
-                <h3 className="text-2xl mb-4 font-caveat text-[#5b21b6]">Patience in Chaos</h3>
+                <h3 className="text-2xl mb-4 font-caveat text-[#5b21b6]">Kindness and Patience</h3>
                 <p className="text-[#1e3a5f]/80 font-medium leading-relaxed">Watching you go through life, always readily helping others, even when sometimes that help isn't extended towards you; has taught me to always be kind even when I'm not expecting anything in return.</p>
               </div>
             </ScrollReveal>
