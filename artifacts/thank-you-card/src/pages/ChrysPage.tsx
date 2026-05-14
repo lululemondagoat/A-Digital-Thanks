@@ -151,7 +151,9 @@ export default function ChrysPage() {
           </div>
           <p className="text-xl font-bold leading-relaxed text-[#1e3a5f] mb-16 max-w-2xl mx-auto">You are a protector, a healer, and a rock. The world is softer because you are in it. Never forget the profound difference you make, not just in hospitals, but in our lives. Especially mine.</p>
           <div className="font-caveat text-4xl text-[#5b21b6] tracking-wide relative inline-block">
-            <span className="relative z-10">With all my love</span>
+            <span className="relative z-10">With all my love,
+            Kemi
+</span>
             <motion.div 
               className="absolute bottom-1 left-0 right-0 h-3 bg-pink-300/40 -z-10 rounded-full"
               initial={{ scaleX: 0 }}
