@@ -64,9 +64,10 @@ export default function UnlockPage() {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      className="min-h-screen bg-black text-white flex flex-col items-center justify-center p-4 relative overflow-hidden"
+      className="min-h-screen bg-gradient-to-br from-[#fff9f0] to-[#fce7f3] text-[#5c3d2e] flex flex-col items-center justify-center p-4 relative overflow-hidden"
     >
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent to-[#111] pointer-events-none" />
+      <div className="absolute top-[-10%] left-[-10%] w-[50%] h-[50%] bg-[radial-gradient(circle,_#fdf2f8_0%,_transparent_70%)] pointer-events-none opacity-60" />
+      <div className="absolute bottom-[-10%] right-[-10%] w-[50%] h-[50%] bg-[radial-gradient(circle,_#fef3c7_0%,_transparent_70%)] pointer-events-none opacity-60" />
       
       <AnimatePresence>
         {isSuccess && (
@@ -74,15 +75,15 @@ export default function UnlockPage() {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0 }}
-            className="absolute inset-0 z-50 bg-white flex items-center justify-center"
+            className="absolute inset-0 z-50 bg-gradient-to-r from-[#fce7f3] to-[#dbeafe] flex items-center justify-center"
           >
             <motion.h2 
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 }}
-              className="text-black font-serif text-4xl tracking-widest"
+              className="text-[#e8426a] font-comic font-bold text-5xl tracking-wide"
             >
-              Unlocked.
+              Unlocked!
             </motion.h2>
           </motion.div>
         )}
@@ -92,24 +93,23 @@ export default function UnlockPage() {
         <motion.div
           animate={{
             scale: [1, 1.1, 1],
-            opacity: [0.7, 1, 0.7],
           }}
           transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-          className="mb-8 p-4 rounded-full bg-white/5 backdrop-blur-sm border border-white/10 shadow-[0_0_30px_rgba(255,255,255,0.1)]"
+          className="mb-8 p-5 rounded-full bg-pink-100 border border-pink-300 shadow-sm"
         >
-          <Lock className="w-8 h-8 text-gray-300" />
+          <Lock className="w-8 h-8 text-pink-500" />
         </motion.div>
 
-        <h1 className="font-serif text-3xl mb-4 tracking-wide text-gray-100">
+        <h1 className="font-comic font-bold text-4xl mb-4 text-[#e8426a]">
           For {name}
         </h1>
         
         {attempts > 0 ? (
           <>
-            <p className="text-gray-400 mb-2 font-light">
+            <p className="font-nunito font-semibold text-[#8b5a2b] mb-2">
               This message was made especially for you.
             </p>
-            <p className="text-gray-500 text-sm mb-12 font-light">
+            <p className="font-nunito text-[#a17a5c] text-sm mb-12">
               Enter your special date to unlock it.
             </p>
 
@@ -125,7 +125,7 @@ export default function UnlockPage() {
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   placeholder="DD/MM"
-                  className="w-full bg-white/5 border border-white/20 rounded-xl px-6 py-4 text-center text-xl tracking-widest text-white placeholder-gray-600 focus:outline-none focus:border-white/50 focus:ring-1 focus:ring-white/50 transition-all backdrop-blur-md"
+                  className="w-full bg-white border-2 border-pink-200 rounded-2xl px-6 py-4 text-center text-xl font-nunito font-bold text-[#5c3d2e] placeholder-pink-300 focus:outline-none focus:border-pink-500 focus:ring-2 focus:ring-pink-200 transition-all shadow-sm"
                   data-testid="input-password"
                   autoFocus
                 />
@@ -133,7 +133,7 @@ export default function UnlockPage() {
 
               <button
                 type="submit"
-                className="text-sm tracking-widest uppercase text-gray-400 hover:text-white transition-colors py-2 border-b border-transparent hover:border-white/30"
+                className="font-nunito font-bold text-sm uppercase text-pink-500 hover:text-pink-600 transition-colors py-2 border-b-2 border-transparent hover:border-pink-400"
                 data-testid="button-unlock"
               >
                 Unlock
@@ -151,8 +151,8 @@ export default function UnlockPage() {
                   }}
                 >
                   <Heart 
-                    size={16} 
-                    className={i < attempts ? "fill-white/20 text-white/40" : "text-transparent"} 
+                    size={20} 
+                    className={i < attempts ? "fill-pink-500 text-pink-500" : "text-transparent"} 
                   />
                 </motion.div>
               ))}
@@ -162,10 +162,10 @@ export default function UnlockPage() {
           <motion.div
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-gray-400 mt-8"
+            className="text-[#8b5a2b] mt-8"
           >
-            <p className="text-xl font-serif tracking-widest mb-4">Oops…</p>
-            <p className="font-light">sorry, wrong page.</p>
+            <p className="text-3xl font-comic font-bold mb-4 text-[#e8426a]">Oops…</p>
+            <p className="font-nunito font-semibold">sorry, wrong page.</p>
           </motion.div>
         )}
       </div>
