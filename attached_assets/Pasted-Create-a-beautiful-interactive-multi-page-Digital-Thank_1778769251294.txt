@@ -1,0 +1,259 @@
+Create a beautiful interactive multi-page “Digital Thank You Card” website with a modern emotional aesthetic and smooth animated transitions between pages.
+
+The website should feel premium, heartfelt, cinematic, and personalised for each family member.
+
+GENERAL STYLE:
+- Smooth modern UI
+- Elegant animations
+- Soft transitions between pages
+- Responsive design for desktop and mobile
+- Subtle floating particles/background motion
+- Glassmorphism cards
+- Rounded corners
+- Emotional, warm atmosphere
+- Smooth fade-in effects while scrolling
+- High quality typography
+- Dark mode inspired visuals with glowing accents
+- Minimal but immersive
+
+WEBSITE STRUCTURE:
+
+HOME PAGE:
+The homepage should act as a gateway to five personalised thank-you pages.
+
+At the center:
+Title:
+“Thank You”
+Subtitle:
+“A small collection of appreciation for the people who shaped my life.”
+
+Display 5 elegant interactive cards/buttons:
+- Chrys
+- Gontr
+- Drico
+- Ursin
+- Kemi
+
+Each card should:
+- Have a unique colour glow matching that person’s personality
+- Animate slightly on hover
+- Include a small icon/theme hint
+- Open their dedicated page
+
+Add smooth animated page transitions throughout the entire website.
+
+-----------------------------------
+PASSWORD SYSTEM:
+-----------------------------------
+
+Before entering any page, show a beautiful password unlock screen.
+
+STYLE:
+- Soft glowing lock icon
+- Elegant centered input field
+- Minimalist aesthetic
+- Smooth animations
+- 3 password attempts maximum
+
+TEXT:
+“This message was made especially for you.
+Enter your special date to unlock it.”
+
+PASSWORDS:
+- Chrys → 18/12
+- Gontr → 28/03
+- Drico → 14/04
+- Ursin → 09/11
+- Kemi → 15/04
+
+The password format should be DD/MM.
+
+If the correct password is entered:
+- Unlock animation
+- Smooth transition into the personalised page
+
+If incorrect:
+- Shake animation
+- Small heart icon disappears after each attempt
+
+After 3 failed attempts:
+Display:
+“Oops… sorry, wrong page 💌”
+Then redirect back to homepage after a few seconds.
+
+-----------------------------------
+CHRYS PAGE:
+-----------------------------------
+
+Theme:
+Healthcare / therapeutic radiography inspired.
+
+STYLE:
+- Soft blue, white, lavender, and subtle pink colours
+- Calm and comforting atmosphere
+- Elegant glowing effects
+- Gentle heartbeat line animation in background
+- Soft floating particles
+
+VISUAL ELEMENTS:
+- Abstract medical imagery
+- X-ray/radiography inspired glowing overlays
+- Soft light beams
+- Elegant healthcare aesthetic
+
+TONE:
+Warm, emotional, appreciative.
+
+SECTIONS:
+- “Thank You”
+- “Things You’ve Taught Me”
+- “Memories I Treasure”
+- “What Makes You Special”
+- Final heartfelt message section
+
+Animations should feel gentle and comforting.
+
+-----------------------------------
+GONTR PAGE:
+-----------------------------------
+
+Theme:
+Finance, professionalism, discipline, luxury.
+
+STYLE:
+- Black, dark green, and gold palette
+- Elegant modern financial aesthetic
+- Subtle stock-chart inspired line animations
+- Professional luxury feel
+
+VISUAL ELEMENTS:
+- Floating graph lines
+- Soft golden glow
+- Minimal city skyline silhouettes
+- Sophisticated design
+
+TONE:
+Respectful, grateful, admiring.
+
+SECTIONS:
+- “Lessons From You”
+- “Things I Admire”
+- “What You’ve Built”
+- Final thank-you letter
+
+Use smooth professional animations.
+
+-----------------------------------
+DRICO PAGE:
+-----------------------------------
+
+Theme:
+Football and energetic fun.
+
+STYLE:
+- Stadium-inspired visuals
+- Bright green, white, and electric blue colours
+- Dynamic motion
+- Youthful and exciting
+
+VISUAL ELEMENTS:
+- Football graphics
+- Stadium lighting glow
+- Subtle scoreboard-inspired UI
+- Motion effects
+
+TONE:
+Fun, warm, playful, supportive.
+
+SECTIONS:
+- “Best Memories”
+- “Funny Moments”
+- “Future GOAT”
+- Final appreciation message
+
+Use slightly more energetic animations than other pages.
+
+-----------------------------------
+URSIN PAGE:
+-----------------------------------
+
+Theme:
+NASA, science, space, future technology.
+
+STYLE:
+- Deep space background
+- Dark navy, purple, black, and cyan glow colours
+- Futuristic UI
+- Cinematic sci-fi atmosphere
+
+VISUAL ELEMENTS:
+- Stars and nebula effects
+- Orbit animations
+- Rocket launch inspired visuals
+- Futuristic interface overlays
+
+TONE:
+Inspirational, intelligent, supportive.
+
+SECTIONS:
+- “Mission Memories”
+- “Your Future”
+- “Things I Appreciate About You”
+- Final message
+
+Add subtle parallax effects while scrolling.
+
+-----------------------------------
+KEMI PAGE:
+-----------------------------------
+
+Theme:
+Self-appreciation, ambition, growth, success.
+
+STYLE:
+- Black and gold luxury aesthetic
+- Elegant modern visuals
+- Minimal but powerful atmosphere
+- Soft glowing money-inspired accents
+
+IMPORTANT:
+This page should NOT feel arrogant.
+It should feel reflective, motivational, and appreciative toward personal growth and resilience.
+
+TONE:
+Honest, introspective, ambitious.
+
+SECTIONS:
+- “Thank You To Myself”
+- “Things I Survived”
+- “Ways I’ve Grown”
+- “Dreams For The Future”
+- Final promise to self
+
+Use elegant animations and cinematic transitions.
+
+-----------------------------------
+GLOBAL FEATURES:
+-----------------------------------
+
+- Smooth page transitions everywhere
+- Scroll-triggered fade animations
+- Ambient background movement
+- Beautiful typography
+- Responsive mobile design
+- Floating particles
+- Soft glow effects
+- Emotional cinematic atmosphere
+- No cheesy or childish design
+- Keep everything polished, elegant, and heartfelt
+
+FINAL PAGE:
+Create a hidden “Family” page that can only be unlocked after visiting all five personal pages.
+
+STYLE:
+Blend elements from every page together.
+
+MESSAGE:
+A final heartfelt thank-you message to the whole family together.
+
+Make this page feel emotional, complete, and meaningful.
